@@ -14,9 +14,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>service</module>
-        <module>common</module>
         <module>app</module>
+        <module>common</module>
+        <module>contrast</module>
+        <module>interfaces</module>
+        <module>push</module>
+        <module>service</module>
+        <module>sms</module>
     </modules>
     <dependencies>
         <dependency>
