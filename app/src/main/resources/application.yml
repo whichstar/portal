@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: 47.99.215.76/sms_platform
+    username: root
+    password: root
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.gxkj.portal.dal.entity
+
+
+
+
